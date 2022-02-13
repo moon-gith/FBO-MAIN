@@ -1292,7 +1292,7 @@ hr {
 }
 
 .footer-main {
-  background: #F7F8F9;
+  background: #212121;
   border-radius: 100px 100px 0px 0px;
   padding: 103px 0 60px;
 }
@@ -1474,7 +1474,7 @@ hr {
   }
 }
 .footer-main .widget-nav li a {
-  color: #457B9D;
+  color: white;
   transition: all 0.5s ease 0s;
 }
 @media only screen and (max-width: 767px) {
@@ -1483,14 +1483,14 @@ hr {
   }
 }
 .footer-main .widget-nav li a:hover {
-  color: #FF5A5A;
+  color: #DCA926;
   padding-left: 8px;
 }
 .footer-main .widget-social {
   display: flex;
 }
 .footer-main .widget-social a {
-  color: #457B9D;
+  color: whitesmoke;
   font-size: 19px;
 }
 .footer-main .widget-social a + a {
@@ -1709,7 +1709,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
-  border-radius: 0 0 0 50px;
+  border-radius: 0 0 50px 50px;
   padding: 48px 0 87px 170px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1792,8 +1792,8 @@ hr {
 }
 .newsletter-content-wrap .newsletter-form .form-control {
   box-shadow: none;
-  border: 2px solid #E63946;
-  border-radius: 3px 20px 3px 3px;
+  border: 2px solid #DCA926;
+  border-radius: 3px 3px 3px 3px;
   font-size: 12px;
   color: #1D3557;
   height: 50px;
@@ -1811,16 +1811,16 @@ hr {
 }
 .newsletter-content-wrap .newsletter-form .form-control:-ms-input-placeholder {
   color: #457B9D;
-}
+} 
 @media only screen and (max-width: 479px) {
   .newsletter-content-wrap .newsletter-form .form-control {
     padding: 7px 58px 7px 15px;
   }
 }
 .newsletter-content-wrap .newsletter-form .btn-submit {
-  background-color: #E63946;
+  background-color: #DCA926;
   border: none;
-  border-radius: 30px 30px 3px 30px;
+  border-radius: 30px 30px 30px 30px;
   color: #fff;
   right: 6px;
   height: 40px;
