@@ -1336,7 +1336,7 @@ hr {
   }
 }
 .footer-main .widget-title:after {
-  background-color: #E63946;
+  background-color: #DCA926;
   bottom: 0;
   content: "";
   height: 2px;
@@ -1514,7 +1514,7 @@ hr {
 }
 
 .footer-bottom {
-  background: #F7F8F9;
+  background: black;
 }
 
 .footer-bottom-content {
@@ -1531,7 +1531,7 @@ hr {
 }
 .footer-bottom-content p {
   font-size: 14px;
-  color: #1D3557;
+  color: white;
 }
 @media only screen and (max-width: 575px) {
   .footer-bottom-content p {
@@ -1792,10 +1792,10 @@ hr {
 }
 .newsletter-content-wrap .newsletter-form .form-control {
   box-shadow: none;
-  border: 2px solid #DCA926;
+  border: 2px solid black;
   border-radius: 3px 3px 3px 3px;
   font-size: 12px;
-  color: #1D3557;
+  color: #DCA926;
   height: 50px;
   width: 100%;
   padding: 7px 58px 7px 29px;
@@ -1839,7 +1839,8 @@ hr {
   -o-transform: translate(0, -50%);
 }
 .newsletter-content-wrap .newsletter-form .btn-submit:hover {
-  background-color: #ff4141;
+  background-color: black;
+  color: white;
 }
 
 .ht-popup-video {
@@ -1939,7 +1940,7 @@ textarea, input {
 }
 
 .scroll-to-top {
-  background-color: #1D3557;
+  background-color: black;
   border: none;
   border-radius: 50%;
   bottom: 53px;
@@ -1959,6 +1960,7 @@ textarea, input {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  border: 0.5px solid whitesmoke;
 }
 @media only screen and (max-width: 575px) {
   .scroll-to-top {
@@ -1981,9 +1983,10 @@ textarea, input {
 }
 
 .scroll-to-top:hover {
-  background-color: #FF5A5A;
+  background-color: #DCA926;
   box-shadow: none;
-  color: #FFFFFF;
+  color: black;
+  border: 0.5px solid black;
 }
 
 /*----------------------------------------*/
@@ -3254,7 +3257,8 @@ textarea, input {
   }
 }
 .product-item .product-action .product-action-btn:hover {
-  background-color: #457B9D;
+  background-color: white;
+  color: black;
 }
 .product-item .product-action .product-action-btn.action-btn-cart {
   font-size: 17px;
@@ -3293,6 +3297,13 @@ textarea, input {
   top: 13px;
   width: 45px;
 }
+
+.product-item .info-btn-wishlist:hover{
+  color: white;
+  background-color: black;
+
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .product-item .info-btn-wishlist {
     line-height: 45px;
@@ -4509,8 +4520,8 @@ textarea, input {
 }
 
 .product-details-price {
-  color: #1D3557;
-  font-family: "Playfair Display", serif;
+  color: white;
+  font-family: "Poppins", serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1;
@@ -5832,6 +5843,8 @@ textarea, input {
 }
 .product-cart-view-modal .modal-body {
   padding: 30px 15px;
+  background-color: #161616;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .product-cart-view-modal .modal-body {
@@ -5854,9 +5867,9 @@ textarea, input {
   margin-bottom: 20px;
 }
 .product-cart-view-modal .btn-close {
-  background-color: rgba(168, 218, 220, 0.5);
+  background-color: #dca926;
   box-shadow: none;
-  border: none;
+  border: 1px solid black;
   background-image: none;
   font-size: 30px;
   line-height: 1;
@@ -5868,7 +5881,7 @@ textarea, input {
   z-index: 2;
   width: 30px;
   height: 30px;
-  color: #457B9D;
+  color: black;
   text-align: center;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -5877,8 +5890,9 @@ textarea, input {
   -o-transition: all 0.3s ease-in-out;
 }
 .product-cart-view-modal .btn-close:hover {
-  background-color: #A8DADC;
-  color: #FF5A5A;
+  background-color: black;
+  border: 1px solid white;
+  color: #DCA926;
 }
 
 .single-product-quick-view-slider .thumb-item img {
@@ -6802,6 +6816,19 @@ textarea, input {
   position: relative;
   top: 1px;
 }
+
+.fa-facebook:hover{
+  color: #DCA926 !important;
+}
+
+.fa-linkedin:hover{
+  color: #DCA926 !important;
+}
+
+.fa-twitter:hover{
+  color: #DCA926 !important;
+}
+
 .blog-detail-nav {
   display: flex;
   max-width: 275px;
