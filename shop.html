@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Merier - Fashion Bootstrap eCommerce Template</title>
+    <title>Categories</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/login_logo1.png">
 
     <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
 
@@ -18,7 +18,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
 
@@ -27,7 +29,6 @@
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-    <link rel="stylesheet" href="assets/css/plugins/range-slider.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -36,30 +37,27 @@
 
 <body>
 
-    <!--== Wrapper Start ==-->
-    <div class="wrapper">
+     <!--== Wrapper Start ==-->
+     <div class="wrapper">
 
         <!--== Start Header Wrapper ==-->
-        <header class="header-area">
+        <header class="header-area" style="background-color: #212121;">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.html">
-                                <img class="logo-main" src="assets/images/logo.png" width="153" height="30" alt="Logo">
+                            <a href="index-two.html">
+                                <img class="logo-main" src="assets/img/login_logo1.png" width="90" alt="Logo">
                             </a>
                         </div>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-navigation">
                             <ul class="main-nav">
-                                <li class="has-submenu"><a href="index.html">Home</a>
-                                    <ul class="submenu-nav">
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-two.html">Home Two</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu position-static"><a href="shop.html">Shop</a>
+                                <li class="has-submenu"><a href="index-two.html">Home</a> </li>
+
+                                <!-- NAVBAR CATEGORIES -->
+                                <li class="has-submenu position-static"><a href="shop.html">Categories</a>
                                     <ul class="submenu-nav-mega">
                                         <li><a href="shop.html" class="mega-title">Shop Layout</a>
                                             <ul>
@@ -87,25 +85,12 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="has-submenu"><a href="index.html">Pages</a>
-                                    <ul class="submenu-nav">
-                                        <li><a href="about-us.html">About</a></li>
-                                        <li><a href="account.html">Account</a></li>
-                                        <li><a href="login-register.html">Login/Register</a></li>
-                                        <li><a href="page-not-found.html">Page Not Found</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-submenu"><a href="blog.html">Blog</a>
-                                    <ul class="submenu-nav">
-                                        <li><a href="blog.html">Blog Grid</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                    </ul>
-                                </li>
+                                <!-- NAVBAR PRODUCTS -->
+                                <li class="has-submenu"><a href="products.html">Products</a></li>
+                                <!-- NAVBAR ABOUT US -->
+                                <li class="has-submenu"><a href="blog.html">About Us</a></li>
+                                <!-- NAVBAR PROFILE -->
+                                <li class="has-submenu"><a href="#">Profile</a></li>
                             </ul>
                         </div>
                     </div>
@@ -117,13 +102,13 @@
                                     <i class="fa fa-search"></i>
                                 </button>
                             </form>
-                            <button class="header-action-cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithCartSidebar" aria-controls="offcanvasWithCartSidebar"> 02 Items
+                            <a href="shop-cart.html" class="header-action-cart" type="button"> 02 Items
                                 <span class="cart-icon">
-                  <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 8H12V5H15V3H12V0H10V3H7V5H10V8ZM6 17C5.46957 17 4.96086 17.2107 4.58579 17.5858C4.21071 17.9609 4 18.4696 4 19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21C6.53043 21 7.03914 20.7893 7.41421 20.4142C7.78929 20.0391 8 19.5304 8 19C8 18.4696 7.78929 17.9609 7.41421 17.5858C7.03914 17.2107 6.53043 17 6 17ZM16 17C15.4696 17 14.9609 17.2107 14.5858 17.5858C14.2107 17.9609 14 18.4696 14 19C14 19.5304 14.2107 20.0391 14.5858 20.4142C14.9609 20.7893 15.4696 21 16 21C16.5304 21 17.0391 20.7893 17.4142 20.4142C17.7893 20.0391 18 19.5304 18 19C18 18.4696 17.7893 17.9609 17.4142 17.5858C17.0391 17.2107 16.5304 17 16 17ZM6.17 13.75L6.2 13.63L7.1 12H14.55C15.3 12 15.96 11.59 16.3 10.97L20.16 3.96L18.42 3H18.41L17.31 5L14.55 10H7.53L7.4 9.73L5.16 5L4.21 3L3.27 1H0V3H2L5.6 10.59L4.25 13.04C4.09 13.32 4 13.65 4 14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H18V14H6.42C6.29 14 6.17 13.89 6.17 13.75Z"/>
-                  </svg>
-                </span>
-                            </button>
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 8H12V5H15V3H12V0H10V3H7V5H10V8ZM6 17C5.46957 17 4.96086 17.2107 4.58579 17.5858C4.21071 17.9609 4 18.4696 4 19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21C6.53043 21 7.03914 20.7893 7.41421 20.4142C7.78929 20.0391 8 19.5304 8 19C8 18.4696 7.78929 17.9609 7.41421 17.5858C7.03914 17.2107 6.53043 17 6 17ZM16 17C15.4696 17 14.9609 17.2107 14.5858 17.5858C14.2107 17.9609 14 18.4696 14 19C14 19.5304 14.2107 20.0391 14.5858 20.4142C14.9609 20.7893 15.4696 21 16 21C16.5304 21 17.0391 20.7893 17.4142 20.4142C17.7893 20.0391 18 19.5304 18 19C18 18.4696 17.7893 17.9609 17.4142 17.5858C17.0391 17.2107 16.5304 17 16 17ZM6.17 13.75L6.2 13.63L7.1 12H14.55C15.3 12 15.96 11.59 16.3 10.97L20.16 3.96L18.42 3H18.41L17.31 5L14.55 10H7.53L7.4 9.73L5.16 5L4.21 3L3.27 1H0V3H2L5.6 10.59L4.25 13.04C4.09 13.32 4 13.65 4 14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H18V14H6.42C6.29 14 6.17 13.89 6.17 13.75Z"/>
+                                    </svg>
+                                 </span>
+                             </a>
                             <button class="btn-search-menu d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch">
                                 <span class="search-icon">
                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,20 +129,17 @@
         <main class="main-content">
 
             <!--== Start Page Header Area Wrapper ==-->
-            <section class="page-header-area" data-bg-color="#F1FAEE">
+            <section class="page-header-area" data-bg-color="#161616">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
                             <div class="page-header-content">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Products</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Categories</li>
                                 </ol>
-                                <h2 class="page-header-title">All Trending Products</h2>
+                                <h1 class="page-header-title">All Product Categories</h1>
                             </div>
-                        </div>
-                        <div class="col-sm-4 d-sm-flex justify-content-end align-items-end">
-                            <h5 class="showing-pagination-results">Showing 09 Results</h5>
                         </div>
                     </div>
                 </div>
@@ -165,7 +147,7 @@
             <!--== End Page Header Area Wrapper ==-->
 
             <!--== Start Product Top Bar Area Wrapper ==-->
-            <section class="shop-top-bar-area">
+            <!-- <section class="shop-top-bar-area">
                 <div class="container">
                     <div class="shop-top-bar">
                         <select class="select-shoing">
@@ -206,64 +188,11 @@
                     </div>
                 </div>
                 <h6 class="visually-hidden">Product Top Bar Area</h6>
-            </section>
+            </section> -->
             <!--== End Product Top Bar Area Wrapper ==-->
 
             <!--== Start Product Categories Area Wrapper ==-->
-            <section class="product-categories-area section-top-space">
-                <div class="container">
-                    <div class="row mb-n8">
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c1.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Clothes</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c2.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Shoes</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c3.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Shirts</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c4.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Pants</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c5.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Bags</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mb-8">
-                            <!--== Start Product Categories Item ==-->
-                            <a class="product-two-category-item" href="shop.html">
-                                <img class="product-two-category-thumb" src="assets/images/shop/category/c6.png" width="80" height="80" alt="Image-HasTech">
-                                <h4 class="product-two-category-title">Hats</h4>
-                            </a>
-                            <!--== End Product Categories Item ==-->
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
             <!--== End Product Categories Area Wrapper ==-->
 
             <!--== Start Product Area Wrapper ==-->
@@ -274,253 +203,133 @@
                             <!--== Start Product Item ==-->
                             <div class="product-item">
                                 <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/13.png" width="300" height="286" alt="Image-HasTech">
+                                    <img src="assets/img/ps5.png" width="300" height="286" alt="Image-HasTech">
                                 </a>
-                                <span class="badges">New</span>
                                 <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
                                     <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
                                         <i class="fa fa-shopping-cart"></i>
                                     </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
                                 </div>
                                 <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Casual Prince</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <h4 class="title"><a href="shop-single-product.html">PlayStation 5</a></h4>
+                                    <div class="price">$650.00</div>
                                     <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
                                         <i class="fa fa-heart-o"></i>
                                     </button>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
+                            <!-- End Product Item -->
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/img/apple13pro.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">iPhone 13 Pro</a></h4>
+                                    <div class="price">$650.00</div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End Product Item ==-->
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/img/airpodsmax.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Airpods Max</a></h4>
+                                    <div class="price">$650.00</div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                           <!-- End Product Item -->
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/img/s21ultra.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">S21 Ultra</a></h4>
+                                    <div class="price">$650.00</div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-6">
                             <!--== Start Product Item ==-->
                             <div class="product-item">
                                 <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/19.jpg" width="300" height="286" alt="Image-HasTech">
+                                    <img src="assets/img/xboxseriesx.png" width="300" height="286" alt="Image-HasTech">
                                 </a>
-                                <span class="badges">New</span>
                                 <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
                                     <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
                                         <i class="fa fa-shopping-cart"></i>
                                     </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
                                 </div>
                                 <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Fit Wool Suit</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <h4 class="title"><a href="shop-single-product.html">Xbox Series X</a></h4>
+                                    <div class="price">$650.00</div>
                                     <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
                                         <i class="fa fa-heart-o"></i>
                                     </button>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
+                            <!-- End Product Item -->
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-6">
                             <!--== Start Product Item ==-->
                             <div class="product-item">
                                 <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/20.jpg" width="300" height="286" alt="Image-HasTech">
+                                    <img src="assets/img/iphone13.png" width="300" height="286" alt="Image-HasTech">
                                 </a>
-                                <span class="badges">New</span>
                                 <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
                                     <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
                                         <i class="fa fa-shopping-cart"></i>
                                     </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
                                 </div>
                                 <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Slightly jackets</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <h4 class="title"><a href="shop-single-product.html">iPhone 13</a></h4>
+                                    <div class="price">$650.00</div>
                                     <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
                                         <i class="fa fa-heart-o"></i>
                                     </button>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/16.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Red Perspiciatis</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/21.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Style Modern Dress</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/22.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Star Women pants</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/23.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Flower Print dress</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/17.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Winter Sprit</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6">
-                            <!--== Start Product Item ==-->
-                            <div class="product-item">
-                                <a class="product-thumb" href="shop-single-product.html">
-                                    <img src="assets/images/shop/24.jpg" width="300" height="286" alt="Image-HasTech">
-                                </a>
-                                <span class="badges">New</span>
-                                <div class="product-action">
-                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                                        <i class="fa fa-expand"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </button>
-                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
-                                        <i class="fa fa-exchange"></i>
-                                    </button>
-                                </div>
-                                <div class="product-info">
-                                    <h4 class="title"><a href="shop-single-product.html">Slightly Hoody</a></h4>
-                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
-                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                                        <i class="fa fa-heart-o"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!--== End prPduct Item ==-->
+                            <!-- End Product Item -->
                         </div>
                     </div>
                 </div>
